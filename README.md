@@ -10,7 +10,7 @@ If you have not installed Ubuntu 22.04 yet, please do that first, please note th
 
 ##### Virtual Machine Instructions:
 1. Download [Ubuntu 22.04 Desktop AMD64](https://releases.ubuntu.com/jammy/ubuntu-22.04.5-desktop-amd64.iso).
-2. Download [VMWare Workstation 17](https://uofwaterloo-my.sharepoint.com/:u:/g/personal/m3ning_uwaterloo_ca/EYJ_HOFWwVZDp08AP8_M--EB3E3R30MSqH53rXgQJeGu2A?e=umutFn), this program was uploaded to UWaterloo's SharePoint, you will need to log in with your UWaterloo credentials to download it.
+2. Download [VMWare Workstation 17](https://uofwaterloo-my.sharepoint.com/:u:/r/personal/thkweon_uwaterloo_ca/Documents/TA/W26/installation/VMware-Fusion-13.6.0-24238079_universal.dmg?csf=1&web=1&e=ptHJkK), this program was uploaded to UWaterloo's SharePoint, you will need to log in with your UWaterloo credentials to download it.
 3. Run the downloaded VMware installer.
 4. Follow the setup wizard and keep the default settings.
 5. Run VMware and keep the default settings, select “Use VMware Workstation 17 for Personal Use”.
@@ -53,18 +53,18 @@ If you have not installed Ubuntu 22.04 yet, please do that first, please note th
 23. Finally, install git with `sudo apt install git` in a terminal.
 
 #### Install ROS2
-Download the script (or if you installed ```git```, clone this repository with ```git clone https://github.com/UW-MTE544/MTE544_student.git```, then change the branch to ```setup``` with ```git checkout setup```)
+Download the script (or if you installed ```git```, clone this repository with ```git clone https://github.com/UW-ME597c/ME597_student.git```, then change the branch to ```setup``` with ```git checkout setup```)
 
 Run the script (it needs sudo privilege, so you will need to type in your password when prompted):
 ```
-sh setup_mte544.sh
+sh setup_me597.sh
 ```
 that will take care of installing everything you need for this course, including setting up some environmental variables.
 
 ## Install pre-requisites of the course for ARM64 systems
-If you are using MacOS with apple silicon, the script above will not work. Please follow this blog [How to Set Up VMware, Ubuntu 22, ROS2, and Gazebo on Arm64 (like Apple Silicon or Jetson)](https://medium.com/@MinghaoNing/how-to-set-up-vmware-ubuntu-22-ros2-and-gazebo-on-arm64-like-apple-silicon-or-jetson-5bb4db6ff297) to set up your VM.
+If you are using MacOS with apple silicon, the script above will not work. Please follow this blog [How to Set Up VMware, Ubuntu 22, ROS2, and Gazebo on Arm64 (like Apple Silicon or Jetson)](https://uofwaterloo-my.sharepoint.com/:u:/g/personal/thkweon_uwaterloo_ca/IQCLkH6GVt-jTr5Hf33taeOvAY_6lt_ctm-Anj62VHzYjC4?e=r0aftw) to set up your VM.
 
-You can download the [VMWare for Mac](https://uofwaterloo-my.sharepoint.com/:u:/g/personal/m3ning_uwaterloo_ca/EcT9JtYERmdDgfo3bLKwcycBD9YJK1bTfYdmXHCT3Qe8Sw?e=ftKpPs) and the [Ubuntu 22.04 Desktop ARM64](https://uofwaterloo-my.sharepoint.com/:u:/g/personal/m3ning_uwaterloo_ca/EVgtqnAW51tKqpuYDOSf0vQB2sciaAPxsEJ6VpZDuztRsw?e=JJEYbZ) from the links provided.
+You can download the [VMWare for Mac](https://uofwaterloo-my.sharepoint.com/:u:/r/personal/thkweon_uwaterloo_ca/Documents/TA/W26/installation/VMware-Fusion-13.6.0-24238079_universal.dmg?csf=1&web=1&e=ptHJkK) and the [Ubuntu 22.04 Desktop ARM64](https://uofwaterloo-my.sharepoint.com/:u:/g/personal/thkweon_uwaterloo_ca/IQCLkH6GVt-jTr5Hf33taeOvAY_6lt_ctm-Anj62VHzYjC4?e=rGbFlj) from the links provided.
 
 ## Check your installation
 Once the script has finished the installation, you can quickly check the performance of your system with the Gazebo simulation. Open a terminal and set the TurtleBot3 model:
