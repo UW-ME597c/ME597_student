@@ -10,7 +10,7 @@ If you have not installed Ubuntu 22.04 yet, please do that first, please note th
 
 ##### Virtual Machine Instructions:
 1. Download [Ubuntu 22.04 Desktop AMD64](https://releases.ubuntu.com/jammy/ubuntu-22.04.5-desktop-amd64.iso).
-2. Download [VMWare Workstation 17](https://uofwaterloo-my.sharepoint.com/:u:/r/personal/thkweon_uwaterloo_ca/Documents/TA/W26/installation/VMware-Fusion-13.6.0-24238079_universal.dmg?csf=1&web=1&e=ptHJkK), this program was uploaded to UWaterloo's SharePoint, you will need to log in with your UWaterloo credentials to download it.
+2. Download [VMWare Workstation 17](https://uofwaterloo-my.sharepoint.com/:u:/g/personal/thkweon_uwaterloo_ca/IQBsQxS-ZBqYQr65utUGlXoVAYfXCqKrydpgtnlPHgGv2ts?e=6peLgn), this program was uploaded to UWaterloo's SharePoint, you will need to log in with your UWaterloo credentials to download it.
 3. Run the downloaded VMware installer.
 4. Follow the setup wizard and keep the default settings.
 5. Run VMware and keep the default settings, select “Use VMware Workstation 17 for Personal Use”.
