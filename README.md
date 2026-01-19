@@ -62,7 +62,7 @@ sh setup_me597.sh
 that will take care of installing everything you need for this course, including setting up some environmental variables.
 
 ## Install pre-requisites of the course for ARM64 systems
-If you are using MacOS with apple silicon, the script above will not work. Please follow this blog [How to Set Up VMware, Ubuntu 22, ROS2, and Gazebo on Arm64 (like Apple Silicon or Jetson)](https://uofwaterloo-my.sharepoint.com/:u:/g/personal/thkweon_uwaterloo_ca/IQCLkH6GVt-jTr5Hf33taeOvAY_6lt_ctm-Anj62VHzYjC4?e=r0aftw) to set up your VM.
+If you are using MacOS with apple silicon, the script above will not work. Please follow this blog [How to Set Up VMware, Ubuntu 22, ROS2, and Gazebo on Arm64 (like Apple Silicon or Jetson)](https://medium.com/@MinghaoNing/how-to-set-up-vmware-ubuntu-22-ros2-and-gazebo-on-arm64-like-apple-silicon-or-jetson-5bb4db6ff297) to set up your VM.
 
 You can download the [VMWare for Mac](https://uofwaterloo-my.sharepoint.com/:u:/r/personal/thkweon_uwaterloo_ca/Documents/TA/W26/installation/VMware-Fusion-13.6.0-24238079_universal.dmg?csf=1&web=1&e=ptHJkK) and the [Ubuntu 22.04 Desktop ARM64](https://uofwaterloo-my.sharepoint.com/:u:/g/personal/thkweon_uwaterloo_ca/IQCLkH6GVt-jTr5Hf33taeOvAY_6lt_ctm-Anj62VHzYjC4?e=rGbFlj) from the links provided.
 
