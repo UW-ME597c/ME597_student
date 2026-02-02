@@ -23,8 +23,9 @@ class Logger:
         with open(self.filename, 'a') as file:
             vals_str=""
 
-            # TODO Part 5: Write the values from the list to the file
-            ...
+            for val in values_list:
+                vals_str += str(val)
+                vals_str += ", "
             
             vals_str+="\n"
             
@@ -86,6 +87,18 @@ def euler_from_quaternion(quat):
     quat = [x, y, z, w]
     """
     ... # just unpack yaw
-    return yaw
+    x, y, z, w = quat
+    
+    t0 = 2.0*(w*x + y*z)
+    t1=1.0-2.0*(x**2 + y**2)
+    roll = atan2(t0, t1)
+    
+    t2=2.0*(w*y - z*x)
+    pitch = asin(t2)
+    
+    t3=2.0*(w*z + x*y)
+    t4=1.0-2.0*(y**2 + z**2)
+    yaw = atan2(t3, t4)
+    return roll, pitch, yaw
 
 
