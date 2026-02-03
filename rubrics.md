@@ -51,6 +51,6 @@
 - ```10``` marks for showing pgm maps: ```5/10``` for low quality map acquisition.
   
 ## Conclusions: 15 marks
-- ```1``` mark for names (Family Name, First Name); student IDs; station number; and robot number of all group members. 
+- ```1``` mark for names (Family Name, First Name) and student IDs of all group members. 
 - ```7``` marks for explanation of the obtained plots (can be in the figure captions)
 - ```7``` marks for a brief discussion (interpretation, quality, etc.)
